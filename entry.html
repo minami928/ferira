@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新規登録</title>
+  <link rel="stylesheet" href="css/entry.css">
+  <link rel="stylesheet" href="css/ress.css">
+</head>
+<body>
+  <div class="entry">
+    <h1 align="center">新規登録</h1>
+    <h2>お名前</h2>
+    <div class="name">
+      <input class="regi_name" type="text" placeholder="&emsp;木下ゆうり">
+    </div>
+    <br>
+    <h2>ログインID</h2>
+    <div class="login">
+      <input class="log_id" type="text" placeholder="&emsp;111111FFFFDD">
+    </div>
+    <br>
+    <h2>パスワード <span style="font-size:40%;">6~12文字の半角英数字</span></h2>
+    <div class="pass">
+      <input maxlength="12" class="pass_word" type="password" placeholder="&emsp;111111FFFFDD">
+    </div>
+    <br>
+    <h2>銀行口座登録</h2>
+    <div class="bankcode">
+      <div class="bank">
+        <h3>金融機関</h3>
+        <form action="#" method="GET">
+          <div class="left">
+            <select name="name" id="name" class="select_bank">
+              <option value="who" class="bank_who" selected>選択してください</option>
+              <option value="AAA銀行" class="bank_aaa" >AAA銀行</option>
+              <option value="BBB銀行" class="bank_bbb" >BBB銀行</option>
+              <option value="CCC銀行" class="bank_ccc" >CCC銀行</option>
+            </select>
+          <div class="arrow"></div>
+          </div>
+        </div>
+      <div class="account">
+        <h3>口座種別</h3>
+        <form action="#" method="GET">
+          <div class="left">
+            <select name="name" id="name" class="select_ac">
+              <option value="who" class="select_who" selected>選択してください</option>
+              <option value="普通" class="select_sav">普通</option>
+              <option value="当座" class="select_cur">当座</option>
+              <option value="貯金" class="select_tra">貯金</option>
+            </select>
+          <div class="arrow"></div>
+          </div>
+        </div>
+      <div class="code">
+        <h3>支店コード</h3>
+        <input maxlength="3" type="text" class="branchcode" placeholder="000">
+      </div>
+      <div class="number">
+        <h3>口座番号</h3>
+        <input maxlength="6"  type="text" class="banknamber" placeholder="000000">
+      </div>
+      <div class="firstname">
+        <h3>口座名義(姓)</h3>
+        <input type="text" class="first_name" placeholder="全角カタカナ">
+      </div>
+      <div class="lastname">
+        <h3>口座名義(名)</h3>
+        <input type="text" class="last_name" placeholder="全角カタカナ">
+      </div>
+    </div>
+    <br>
+    <p class="login_btn" align="center"><a href="index.html">登録する</a></p>  
+    <br> 
+  </div>
+</body>
+</html>

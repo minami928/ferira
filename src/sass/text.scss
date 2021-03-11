@@ -1,0 +1,15 @@
+@import "_vars.scss";
+
+body{
+    text-align: center;
+    background:$bgColor;
+
+    #box{
+        border: solid 1px red;
+        background: white;
+    }
+    #button{
+        background: orange;
+        padding: 20px 40px;
+    }
+}

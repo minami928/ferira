@@ -1,0 +1,140 @@
+@import "_vars.scss";
+
+body{
+    background:$bgColor2 ;
+    font-family: "ヒラギノUD丸ゴ Std";
+
+    header{
+        display: flex;
+        .back{
+            background: $accent3Color;
+            display: flex;
+            padding: 10px;
+            width: 23%;
+            border-radius: 10px;
+            margin-left: 24px;
+            margin-top: 54px;
+            a{
+                text-decoration: none;
+            }
+            p{
+                color: white;
+                float:right;
+                padding-left: 10px;
+                
+            }
+        }
+        h2{
+            color: $textColor;
+            margin-top: 58px;
+            margin-left: 10px;
+        }
+    }
+
+    main{
+        margin-top: 30px;
+
+        .txt{
+            display: flex;
+
+            .name{
+                display: flex;
+                flex-direction: column;
+                padding-left: 10px;
+            }
+        }
+
+        
+
+        .sentaku{
+            margin-left: 200px;
+            margin-top: 20px;
+            padding-left: 60px;
+            display: flex;
+            text-decoration: none;
+            color: $textColor;
+
+
+
+           
+        }
+
+        #wrapper {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        /* アコーディオン ここから */
+        dl {
+            width: 350px;
+            margin: 0 auto 10px auto;
+            color: $textColor;
+          font-size: 10px;
+        }
+        dl:first-child {
+          margin-top:10px;
+        }
+        dt {
+          position:relative;
+            display: block;
+            padding: 20px 0 20px 20px;
+            background: $bgColor3;
+        }
+        dt:after {
+          position: absolute;
+          top: 35%;
+          left: 85%;
+          transform: rotate(90deg);
+
+        }
+
+        dt.close:after {
+          position: absolute;
+          top: 35%;
+          left: 85%;
+
+        }
+        dd {
+            display: none;
+            padding: 20px 0 20px 40px;
+            color: $textColor;
+            background: $bgColor3;
+
+            p{
+                text-align: center;
+                padding-top: 20px;
+            }
+            input[type="submit"]{
+                text-align: center;
+            } 
+
+            .box{
+                border: $textColor solid 2px;
+                border-radius: 10px;
+                text-align: center;
+            }
+            
+            #button {
+                display: block;
+                width: 280px;
+                height: 44px;
+                background: #ECB6CB;
+                color: $textColor;
+                border: 2px solid #562019;
+                border-radius: 24px;
+                text-decoration: none;
+                text-align: center;
+                font-size: 16px;
+                font-weight: lighter;
+                line-height: 48px;
+                margin-top: 40px;
+
+            }
+
+        
+        }
+    }
+
+
+
+}

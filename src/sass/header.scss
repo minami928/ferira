@@ -1,0 +1,77 @@
+@import "vars.scss";
+
+body{
+    nav{
+        position: relative;
+        margin: 33px 0 0 0 ;
+        &::before{
+            content: "";
+            width: 100vw;
+            height: 60px;
+            display: block;
+            background: $accent1Color;
+            position: absolute;
+            left: 0;
+            bottom: -30px;
+        }
+        .nav__wrap{
+            display: flex;
+            &__box{
+                width: 20%;
+                position: relative;
+                &__icon{
+                    height: 63px;
+                    width: 63px;
+                    border-radius: 10px;
+                    margin: 0 auto;
+                    line-height: 63px;
+                    box-shadow: 0 0 15px rgba(255,255,255,.8);
+                    p{
+                        height: 100%;
+                        width: 100%;
+                        a{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            text-align: center;
+
+                            img{
+                                display: block;
+                            }
+                        }
+                    }
+                }
+                .history{
+                    background: $accent1Color;
+                    transform: rotate(-6deg);
+                }
+                .gatya{
+                    background: $sub1Color;
+                    transform: rotate(14deg);
+                }
+                .home{
+                    background: $accent1Color;
+                }
+                .dressup{
+                    background: $sub1Color;
+                    transform: rotate(-14deg);
+                }
+                .mypage{
+                    background: $accent1Color;
+                    transform: rotate(6deg);
+                }
+                &__text{
+                    p{
+                        text-align: center;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: -20px;
+                    }
+                }
+            }
+        }
+    }
+}

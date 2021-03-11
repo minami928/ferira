@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/hptext.css">
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/header.css">
+    <script src="js/happytext.js"></script>
+    <title>幸せテキスト入力</title>
+  </head>
+  <body>
+    <header>
+      <div class="back"><a href="index.html"><img src="img/left.svg" alt="">
+          <p>もどる</p></a></div>
+    </header>
+    <div class="modal">
+      <div class="modal_wrap">
+        <div class="close_top">
+          <div class="button_close"><a class="batu" href=""><img src="img/batu.svg" alt=""></a></div>
+        </div>
+        <div class="modal_box" id="modal1">
+          <div class="modal_main">
+            <form method="post" action="https://click.ecc.ac.jp/ecc/sminami/G/rejister.php">
+              <h3> 幸せな思い出を書く</h3>
+              <div class="area">
+                <textarea class="box" name="text1" rows="10" cols="30" maxlength="30" placeholder="テキストテキスト" color="black"></textarea><br>
+                <div class="erabu">
+                  <input id="button" type="submit" value="貯金金額を決める">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <script src="js/jquery-3.5.1.min.js"></script>
+    </div>
+  </body>
+</html>

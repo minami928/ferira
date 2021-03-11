@@ -1,0 +1,48 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="css/serch.css")
+    link(rel="stylesheet" href="css/ress.css")
+    script(src="js/serch.js")
+
+    title 目標金額を設定する
+  body
+
+    header
+        div.back
+            a(href="index.html")
+                img(src="img/left.svg", alt="")
+                p もどる
+        h2 欲しいものを探す
+
+    div.serch
+        form#from1(action=""  method="get")
+            input.text(type="text" placeholder="キーワードを入力")
+            input.button(type="submit")
+
+    div.syohin
+        p Amazonの購入履歴に基づいたおすすめ商品
+
+        div.Stuff
+            a.Stuff1(href="osusume.html")
+                img(src="img/cosme.png", alt="" width="70px" height="300px")  
+                p Cure     
+                p.money ¥1760
+            button.Stuff1
+                img(src="img/cosme.png", alt="" width="70px" height="300px")
+                p Cure     
+                p.money ¥1760
+            button.Stuff1
+                img(src="img/cosme.png", alt="" width="70px" height="300px")
+                p Cure     
+                p.money ¥1760
+            button.Stuff1
+                img(src="img/cosme.png", alt="" width="70px" height="300px")
+                p Cure     
+                p.money ¥1760
+
+
+
+    script(src="js/jquery-3.5.1.min.js")

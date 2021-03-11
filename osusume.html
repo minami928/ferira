@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/osusume.js"></script>
+    <link rel="stylesheet" href="css/osusume.css">
+    <link rel="stylesheet" href="css/ress.css">
+    <title>おすすめ商品</title>
+  </head>
+  <body>
+    <header>
+      <div class="back"><a href="serch.html"><img src="img/left.svg" alt="">
+          <p>もどる</p></a></div>
+      <h2>欲しいものを探す</h2>
+    </header>
+    <div class="syohin">
+      <p>この商品をリストに入れますか？</p>
+      <div class="Stuff">
+        <div class="item">
+          <div class="img"><img src="img/cosme.png" alt="化粧品" width="70px" height="300px"></div>
+          <div class="item_text">
+            <p>Cureの化粧水</p>
+            <p class="money">¥7,028</p>
+            <button id="openModal">リストに追加する</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modalArea" id="modalArea">
+      <div class="modalBg" id="modalBg"></div>
+      <div class="modalWrapper">
+        <div class="modalContents"><img src="img/listtuika.png" alt="">
+          <div class="want">
+            <p> <span>● </span>Cureの化粧水</p>
+            <p class="money">¥7,028</p>
+          </div>
+        </div>
+        <div class="closeModal" id="closeModal"><a class="list_see" href="list.html">リストを見る</a><a class="list_see1" href="serch.html">続けて探す            </a></div>
+      </div>
+    </div>
+    <div class="list">
+      <p class="name">現在の欲しいものリスト</p>
+      <div class="want">
+        <p> <span>● </span>モバイルバッテリー13800mAh iPhone,Android各種対応</p>
+        <p class="money">¥2,399</p>
+      </div>
+      <div class="want">
+        <p> <span>● </span>Cure キュアSpecial Powder Soap酵素洗顔</p>
+        <p class="money">¥1,760</p>
+        <div class="sougaku"><img src="img/money.svg" alt="合計">
+          <p>¥4,159</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

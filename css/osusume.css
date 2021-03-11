@@ -1,0 +1,255 @@
+@charset "UTF-8";
+body {
+  background: #FAF7F0;
+  font-family: "ヒラギノUD丸ゴ Std";
+}
+
+body header {
+  display: flex;
+}
+
+body header .back {
+  background: #D56F9E;
+  display: flex;
+  padding: 10px;
+  width: 23%;
+  border-radius: 10px;
+  margin-left: 24px;
+  margin-top: 54px;
+}
+
+body header .back a {
+  text-decoration: none;
+}
+
+body header .back p {
+  color: white;
+  float: right;
+  padding-left: 10px;
+}
+
+body header h2 {
+  color: #6A2C21;
+  margin-top: 58px;
+  margin-left: 10px;
+}
+
+body .accordion img {
+  float: right;
+}
+
+body .text {
+  text-align: center;
+}
+
+body .serch {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body .serch #form1 {
+  z-index: 0;
+}
+
+body .serch .text {
+  background: white;
+  border-radius: 50px;
+  padding: 10px 0;
+  width: 80%;
+  text-align: left;
+}
+
+body .serch .button {
+  position: absolute;
+  top: 0%;
+  right: 7%;
+  background: #D56F9E;
+  z-index: 100;
+  padding: 23px 22px 22px 40px;
+  font-size: 0;
+  background-image: url(../img/serch.png);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: 42% center;
+  border-radius: 0 50px 50px 0;
+}
+
+body .syohin {
+  text-align: center;
+  color: #6A2C21;
+  margin-top: 50px;
+}
+
+body .syohin a {
+  text-decoration: none;
+  color: #6A2C21;
+}
+
+body .syohin .Stuff {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body .syohin .Stuff .item {
+  background: white;
+  padding: 50px 20px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body .syohin .Stuff .item .item_text {
+  text-align: center;
+  margin: 0 auto;
+}
+
+body .syohin .Stuff .item .item_text .money {
+  color: #DF7564;
+  font-size: 1.3rem;
+  margin-top: 100px;
+}
+
+body .syohin .Stuff .item .item_text #openModal {
+  background: #DF7564;
+  border: #562019 solid 2px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: white;
+  font-size: .8rem;
+  margin: 50px 0 0 40px;
+}
+
+body .modalArea {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  /*サイトによってここの数値は調整 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .modalArea .modalBg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 30, 30, 0.5);
+}
+
+body .modalArea .modalWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 500px;
+}
+
+body .modalArea .modalContents {
+  background: white;
+  padding: 30px 0;
+  border-radius: 20px;
+}
+
+body .modalArea .modalContents img {
+  margin-left: 40px;
+}
+
+body .modalArea .modalContents .want {
+  margin-left: 40px;
+}
+
+body .modalArea .modalContents .want span {
+  color: #CAE593;
+  float: left;
+}
+
+body .modalArea .modalContents .want p {
+  margin-left: 0;
+  color: #6A2C21;
+}
+
+body .modalArea .modalContents .want .money {
+  color: #DF7564;
+  font-size: 1.3rem;
+  margin-left: 200px;
+}
+
+body .modalArea .closeModal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+body .modalArea .closeModal a {
+  text-decoration: none;
+}
+
+body .modalArea .closeModal .list_see {
+  background: white;
+  padding: 30px 20px;
+  color: #6A2C21;
+  border-radius: 20px;
+}
+
+body .modalArea .closeModal .list_see1 {
+  background: white;
+  padding: 30px 20px;
+  color: #6A2C21;
+  border-radius: 20px;
+}
+
+body .list {
+  align-items: center;
+}
+
+body .list .name {
+  text-decoration: none;
+  color: #6A2C21;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body .list .want {
+  text-align: left;
+  background: white;
+  padding: 50px 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+body .list .want span {
+  color: #CAE593;
+  float: left;
+}
+
+body .list .want p {
+  margin-left: 0;
+  color: #6A2C21;
+}
+
+body .list .want .money {
+  color: #DF7564;
+  font-size: 1.3rem;
+  text-align: right;
+}
+
+body .list .sougaku {
+  border-bottom: #FEE478 solid 3px;
+  width: 38%;
+  margin-left: 190px;
+  margin-top: 30px;
+}
+
+body .list .sougaku img {
+  float: left;
+  padding-top: 8px;
+}
+
+body .list .sougaku p {
+  margin-left: 40px;
+  color: #DF7564;
+  font-size: 1.3rem;
+}

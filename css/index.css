@@ -1,0 +1,340 @@
+@charset "UTF-8";
+body nav {
+  position: relative;
+  margin: 33px 0 0 0;
+}
+
+body nav::before {
+  content: "";
+  width: 100vw;
+  height: 60px;
+  display: block;
+  background: #E285AD;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+}
+
+body nav .nav__wrap {
+  display: flex;
+}
+
+body nav .nav__wrap__box {
+  width: 20%;
+  position: relative;
+}
+
+body nav .nav__wrap__box__icon {
+  height: 63px;
+  width: 63px;
+  border-radius: 10px;
+  margin: 0 auto;
+  line-height: 63px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+body nav .nav__wrap__box__icon p {
+  height: 100%;
+  width: 100%;
+}
+
+body nav .nav__wrap__box__icon p a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+body nav .nav__wrap__box__icon p a img {
+  display: block;
+}
+
+body nav .nav__wrap__box .history {
+  background: #E285AD;
+  transform: rotate(-6deg);
+}
+
+body nav .nav__wrap__box .gatya {
+  background: #F8EA8E;
+  transform: rotate(14deg);
+}
+
+body nav .nav__wrap__box .home {
+  background: #E285AD;
+}
+
+body nav .nav__wrap__box .dressup {
+  background: #F8EA8E;
+  transform: rotate(-14deg);
+}
+
+body nav .nav__wrap__box .mypage {
+  background: #E285AD;
+  transform: rotate(6deg);
+}
+
+body nav .nav__wrap__box__text p {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+}
+
+html {
+  overflow: auto;
+}
+
+html body {
+  overflow: hidden;
+  width: 375px;
+  height: 812px;
+  background: #FAF7F0;
+}
+
+html body .wrap__box__flex {
+  width: 78.5vw;
+  margin: 0 0 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+html body .wrap__box__flex__question {
+  margin: 24px 0 0;
+}
+
+html body .wrap__box__flex__bard {
+  margin: 10px 0 0;
+}
+
+html body .wrap__box__main {
+  position: relative;
+}
+
+html body .wrap__box__main__flex__girl {
+  transform: translateX(-37px);
+}
+
+html body .wrap__box__main__flex__cohesive {
+  position: absolute;
+  right: 30px;
+  top: -50px;
+  width: 180px;
+}
+
+html body .wrap__box__main__flex__cohesive__give {
+  margin: 0 0 0 104px;
+}
+
+html body .wrap__box__main__flex__cohesive__history {
+  margin: 0 0 0 104px;
+}
+
+html body .wrap__box__main__wantBox__cup p img {
+  position: absolute;
+  bottom: -80px;
+  left: 30px;
+  height: 550px;
+  width: 375px;
+}
+
+html body .wrap__box__main__wantBox__list__img p img {
+  animation: fuwa 2.5s infinite;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  z-index: 10;
+}
+
+@keyframes fuwa {
+  0% {
+    transform: translateY(0);
+  }
+  33% {
+    transform: translateY(-10px);
+  }
+  66% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+html body .wrap__box__main__wantBox__list__accumulate {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 67%;
+}
+
+html body .wrap__box__main__wantBox__list__accumulate__box {
+  position: relative;
+  width: 100%;
+}
+
+html body .wrap__box__main__wantBox__list__accumulate__box__text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  margin: 18px auto;
+  font-family: "ヒラギノUD丸ゴ Std";
+  font-size: 18px;
+  color: #471611;
+  line-height: 33px;
+}
+
+html body .wrap__box__main__wantBox__list__accumulate__box__text span {
+  font-size: 36px;
+  color: #fff;
+  margin: 0 10px 0 0;
+}
+
+html body .wrap__box__main__flex__cohesive__history {
+  position: absolute;
+  z-index: 1000;
+}
+
+html body .wrap__box__main__flex__cohesive__history p {
+  cursor: pointer;
+}
+
+html body .wrap__box__main__flex__cohesive__save {
+  text-align: center;
+}
+
+html body .wrap__box__main__flex__cohesive__save p {
+  cursor: pointer;
+}
+
+html body .wrap__box__main__flex__cohesive__save #openModal {
+  top: 50%;
+  left: 50%;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalArea {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #6A2C21;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalArea2 {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #6A2C21;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalBg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 30, 30, 0.9);
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  max-width: 500px;
+  padding: 10px 30px;
+  background: #FAF7F0;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalWrapper .button_close {
+  position: absolute;
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+html body .wrap__box__main__flex__cohesive__save .closeModal {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalContens h2 {
+  color: #6A2C21;
+  margin-top: 58px;
+  margin-left: 10px;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalContens h3 {
+  text-align: center;
+  color: #6A2C21;
+  margin-top: 10px;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalContens .modal_wrap {
+  background: #C9E98A;
+  position: relative;
+  width: 80%;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalContens .modalWrapper {
+  background: #D4F594;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalContens .area {
+  text-align: center;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalContens .area .box {
+  background: white;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 24px;
+  border: 1px solid #6A2C21;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalContens .area .box ::placeholder {
+  color: #6A2C21;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalContens .area input[type="submit"] {
+  margin: 0 auto;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalContens .area .erabu #button {
+  display: block;
+  width: 260px;
+  height: 45px;
+  background: #FEE478;
+  color: #6A2C21;
+  border: 2px solid #562019;
+  border-radius: 24px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 48px;
+}
+
+html body .wrap__box__main__flex__cohesive__save .modalContens .box {
+  display: flex;
+  margin: 0 auto;
+}
+
+html body .nav__wrap {
+  margin-top: 33px;
+}

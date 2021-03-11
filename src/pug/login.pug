@@ -1,0 +1,29 @@
+doctype html
+html(lang="ja")
+    head
+        include _temp_head
+        link(rel="stylesheet", href="css/login.css")
+        title ログイン画面
+
+    body
+        header
+        main
+            div.login
+                h3
+                    |ログイン
+            
+                form(method="post")
+                    div.pass
+                        input.top(type="text" name="text1" placeholder="ログインID")
+                        input.top1(type="password" name="pass" placeholder="パスワード")
+
+            div.for
+                a(href="aaa.htnl")
+                    p パスワードを忘れた場合
+                        img(src="img/arrow.svg", alt="矢印")   
+
+            p.login__btn
+                a(href="index.html")|ログイン
+  
+        footer
+

@@ -1,0 +1,83 @@
+@import "_vars.scss";
+@import "_ress.scss";
+
+body{
+    background: $bgColor;
+    font-family: "ヒラギノUD丸ゴ Std";
+
+    main{
+        .login{
+            margin-top: 200px;
+            width: 80%;
+            margin: 200px auto 0;
+            border: #562019 2px solid;
+            border-radius: 20px;
+            background: white;
+
+        h3{
+            text-align: center;
+            font-family: AppleSystemUIFont;
+            margin-top: 40px;
+            color: $textColor;
+        }
+
+        .pass{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .top{
+                margin: 40px 0 0;
+                border-bottom: #562019 solid 1px;
+            }
+            .top1{
+                margin: 60px 0 70px;
+                border-bottom: #562019 solid 1px;
+            }
+        }
+
+        input{
+            width: 80%;
+            text-align: center;
+        }
+
+        }
+        .for{
+            margin-top: 10px;
+            a{
+                text-decoration: none;
+
+            }
+            p{
+                text-align: center;
+                font-size: .8rem;
+                color: $textColor;
+                
+                img{
+                    padding-left: 10px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+         .login__btn {
+            width: 218px;
+            height: 48px;
+            margin:0 auto ;
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                background: #ECB6CB;
+                color: $textColor;
+                border: 2px solid #562019;
+                border-radius: 24px;
+                text-decoration: none;
+                text-align: center;
+                font-size: 16px;
+                font-weight: lighter;
+                line-height: 48px;
+                margin-top: 40px;
+              }
+          }
+    }
+}

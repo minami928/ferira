@@ -1,0 +1,140 @@
+@charset "UTF-8";
+body nav {
+  position: relative;
+  margin: 33px 0 0 0;
+}
+
+body nav::before {
+  content: "";
+  width: 100vw;
+  height: 60px;
+  display: block;
+  background: #E285AD;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+}
+
+body nav .nav__wrap {
+  display: flex;
+}
+
+body nav .nav__wrap__box {
+  width: 20%;
+  position: relative;
+}
+
+body nav .nav__wrap__box__icon {
+  height: 63px;
+  width: 63px;
+  border-radius: 10px;
+  margin: 0 auto;
+  line-height: 63px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+body nav .nav__wrap__box__icon p {
+  height: 100%;
+  width: 100%;
+}
+
+body nav .nav__wrap__box__icon p a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+body nav .nav__wrap__box__icon p a img {
+  display: block;
+}
+
+body nav .nav__wrap__box .history {
+  background: #E285AD;
+  transform: rotate(-6deg);
+}
+
+body nav .nav__wrap__box .gatya {
+  background: #F8EA8E;
+  transform: rotate(14deg);
+}
+
+body nav .nav__wrap__box .home {
+  background: #E285AD;
+}
+
+body nav .nav__wrap__box .dressup {
+  background: #F8EA8E;
+  transform: rotate(-14deg);
+}
+
+body nav .nav__wrap__box .mypage {
+  background: #E285AD;
+  transform: rotate(6deg);
+}
+
+body nav .nav__wrap__box__text p {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+}
+
+body {
+  text-align: center;
+  background: #FAF7F0;
+  font-family: "ヒラギノUD丸ゴ Std";
+}
+
+body header {
+  display: flex;
+}
+
+body header .back {
+  background: #D56F9E;
+  display: flex;
+  padding: 10px;
+  width: 23%;
+  border-radius: 10px;
+  margin-left: 24px;
+  margin-top: 54px;
+}
+
+body header .back a {
+  text-decoration: none;
+}
+
+body header .back p {
+  color: white;
+  float: right;
+  padding-left: 10px;
+}
+
+body .label {
+  position: absolute;
+  z-index: 10;
+  margin-top: 40px;
+}
+
+body .main {
+  position: relative;
+  margin-top: 100px;
+}
+
+body .button {
+  position: absolute;
+  padding-top: 430px;
+  z-index: 100;
+  margin-left: 40px;
+}
+
+body .button .ten {
+  margin-left: 10px;
+}
+
+body .nav__wrap {
+  margin-top: 95px;
+}

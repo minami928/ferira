@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="112" viewBox="0 0 152 112">
+  <defs>
+    <filter id="合体_2" x="0" y="0" width="152" height="112" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_202" data-name="グループ 202" transform="translate(-15 -516)">
+    <g id="グループ_203" data-name="グループ 203">
+      <g id="グループ_201" data-name="グループ 201">
+        <g transform="matrix(1, 0, 0, 1, 15, 516)" filter="url(#合体_2)">
+          <path id="合体_2-2" data-name="合体 2" d="M-281.889,84H-346a15,15,0,0,1-15-15V15A15,15,0,0,1-346,0h104a15,15,0,0,1,15,15V69a15,15,0,0,1-15,15h-22.111L-273,94Z" transform="translate(370 6)" fill="#ea705e"/>
+        </g>
+        <text id="欲しいもの_リストを見る" data-name="欲しいもの
+リストを見る" transform="translate(91 561)" fill="#fff" font-size="18" font-family="HiraginoUDSansRStd-W4, Hiragino UD Sans Rd Std" letter-spacing="0.04em"><tspan x="-46.44" y="0">欲しいもの</tspan><tspan x="-55.53" y="21">リストを見る</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,163 @@
+@charset "UTF-8";
+html {
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+body {
+    background: #FAF7F0;
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: transparent;
+    user-select:none;
+}
+
+.page_all {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.gacha_all {
+    background: #FDDEEB;
+    border: 2px solid #562019;
+    margin:10px;
+    padding: 10px;
+    border-radius: 12px;
+    position: relative;
+    top: 140px;
+}
+
+.gacha_1 {
+    display: block;
+    margin:auto;
+}
+
+.gacha_catch {
+    z-index: 2;
+    display: block;
+    margin:auto;
+    position: relative;
+    top: -128px;
+    left: -8px;
+}
+
+.gacha_bg {
+    display: block;
+    margin:auto;
+}
+
+body .background {
+    width: 106.5%;
+    height: 320px;
+    display: block;
+    margin:auto;
+    position: relative;
+    top: -148px;
+    left: -10px;
+}
+  
+.ticket_count {
+    display: block;
+    width: 80%;
+    height: 7.5%;
+    background: #9DBF60;
+    color: #562019;
+    border-radius: 24px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 36px;
+    float: left;
+    position: relative;
+    top: -208px;
+    left: 34px;
+}
+
+.gacha_all a {
+    text-decoration: none;
+}
+
+.run_1 , .run_10 {
+    display: inline-block;
+    user-select: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    width: 40%;
+    height: 84px;
+    margin: 0 auto;
+    background: #DF7564;
+    color: #562019;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 36px;
+    position: relative;
+    border: 2px solid #707070;
+    box-shadow: 0 -5px #707070 inset;
+    transition: 0.02s;
+}
+
+.run_1 {
+    float: left;
+    top: -168px;
+    left: 20px;
+}
+
+.run_10 {
+    float: right;
+    top: -168px;
+    left: -20px;
+}
+
+.run_1:hover , .run_10:hover {
+    background-color: #DD503A;
+    border-color: #707070;
+    color: #FFF;
+}
+
+.run_1 .gacha_try , .run_10 .gacha_try {
+    font-size: 125%;
+    text-shadow:
+    1.2px 0 0 #734640,
+    0 1.2px 0 #734640,
+    -1.2px 0 0 #734640,
+    0 -1.2px 0 #734640;
+    color: #FFF;
+}
+
+.run_1 .t_cost , .run_10 .t_cost {
+    font-size: 50%;
+    color: #FFF;
+}
+
+.back {
+    display: block;
+    margin:auto;
+    position: relative;
+    top: -590px;
+    left: 10px;
+}
+
+.footer_btn {
+    z-index: 1;
+    display: flex;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer_base {
+    z-index: 4;
+    width: 120%;
+    bottom: 0;
+    background-color: #ECB6CB;
+    padding: 30px 0;
+    position: absolute;
+    left: -40px;
+}

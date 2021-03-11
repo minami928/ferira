@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  background: #FAF7F0;
+}
+
+body #box {
+  border: solid 1px red;
+  background: white;
+}
+
+body #button {
+  background: orange;
+  padding: 20px 40px;
+}

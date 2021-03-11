@@ -1,0 +1,210 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  /* All browsers without overlaying scrollbars */
+  -webkit-text-size-adjust: 100%;
+  /* iOS 8+ */
+}
+
+body {
+  background: #FAF7F0;
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 1.8em;
+  margin: 40px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 100%;
+}
+
+body .notice {
+  margin: 30px 0 30px 5px;
+  padding: 0 0 0 10px;
+  color: #6A2C21;
+}
+
+body .arrow_left {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: -84px;
+  left: 20px;
+}
+
+body .mail_box {
+  background: #ffffff;
+  margin:10px;
+  padding: 10px;
+  border-radius: 12px;
+  position: relative;
+  top: -60px;
+}
+
+body .box_green1 {
+  background: #9DBF60;
+  margin: 24px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 12px;
+  position: relative;
+  height: 76px;
+}
+
+body .box_green2 {
+  background: #9DBF60;
+  margin: 24px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 12px;
+  position: relative;
+  height: 180px;
+}
+
+body .box_white1 {
+  background: #ffffff;
+  margin: 24px 10px;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  top: -36px;
+  width: 120px;
+  height: 66px;
+}
+
+body .mail_img {
+  position: relative;
+  top: -24px;
+  left: -24px;
+}
+
+body .checked {
+  position: relative;
+  top: -52px;
+  left: -50px;
+}
+
+body .box_yellow1 {
+  background: #FDE47C;
+  margin: 24px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 12px;
+  position: relative;
+  height: 76px;
+}
+
+body .ticket_img {
+  position: relative;
+  top: -24px;
+  left: -24px;
+}
+
+body .box_gray1 {
+  background: #E4E4E4;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  position: relative;
+  top: -76px;
+}
+
+body .box_gray2 {
+  background: #E4E4E4;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  position: relative;
+  top: -214px;
+}
+
+body .box_blank1 {
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  position: relative;
+  top: -76px;
+}
+
+body .receive_one {
+  margin: 0 auto;
+}
+  
+body .receive_one {
+  display: block;
+  width: 40%;
+  height: 15%;
+  background: #E4E4E4;
+  color: #562019;
+  border: 2px solid #562019;
+  border-radius: 24px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  line-height: 22px;
+  position: relative;
+  top: -60px;
+  left: 64px;
+}
+
+body .mail_txt {
+  position: relative;
+  top: -36px;
+  left: 60px;
+}
+
+body .close_window {
+  margin: 0 auto;
+}
+  
+body .close_window {
+  display: block;
+  width: 40%;
+  height: 75%;
+  background: #E4E4E4;
+  color: #562019;
+  border: 2px solid #562019;
+  border-radius: 24px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 36px;
+  float: left;
+  position: relative;
+  top: -48px;
+  left: 24px;
+}
+
+body .receive_all {
+  margin: 0 auto;
+}
+  
+body .receive_all {
+  display: block;
+  width: 40%;
+  height: 75%;
+  background: #E4E4E4;
+  color: #562019;
+  border: 2px solid #562019;
+  border-radius: 24px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 36px;
+  float: right;
+  position: relative;
+  top: -48px;
+  left: -24px;
+}

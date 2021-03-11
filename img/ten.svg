@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="70" viewBox="0 0 142 70">
+  <g id="グループ_208" data-name="グループ 208" transform="translate(-193 -512)">
+    <rect id="長方形_194" data-name="長方形 194" width="142" height="68" rx="15" transform="translate(193 514)" fill="#be5f50"/>
+    <g id="長方形_192" data-name="長方形 192" transform="translate(193 512)" fill="#df7564" stroke="#be5f50" stroke-width="2">
+      <rect width="142" height="68" rx="15" stroke="none"/>
+      <rect x="1" y="1" width="140" height="66" rx="14" fill="none"/>
+    </g>
+    <text id="_10回ガチャる" data-name="10回ガチャる" transform="translate(214 542)" fill="#f9f5ec" stroke="#734640" stroke-linejoin="round" stroke-width="5" font-size="16" font-family="Helvetica" letter-spacing="0.04em"><tspan x="0" y="0">10</tspan><tspan y="0" font-family="HiraginoSans-W3, Hiragino Sans">回ガチャる</tspan></text>
+    <text id="_10回ガチャる-2" data-name="10回ガチャる" transform="translate(214 542)" fill="#f9f5ec" font-size="16" font-family="Helvetica" letter-spacing="0.04em"><tspan x="0" y="0">10</tspan><tspan y="0" font-family="HiraginoSans-W3, Hiragino Sans">回ガチャる</tspan></text>
+    <text id="チケット10枚" transform="translate(227 567)" fill="#fff" font-size="12" font-family="HiraginoUDSansRStd-W4, Hiragino UD Sans Rd Std" letter-spacing="0.04em"><tspan x="0" y="0">チケット10枚</tspan></text>
+  </g>
+</svg>

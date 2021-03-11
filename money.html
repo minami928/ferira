@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/money.css">
+    <link rel="stylesheet" href="css/ress.css">
+    <script src="js/happytext.js"></script>
+    <title>目標金額を設定する</title>
+  </head>
+  <body>
+    <header>
+      <div class="back"><a href="happytext.html"><img src="img/left.svg" alt="">
+          <p>もどる</p></a></div>
+    </header>
+    <div class="modal">
+      <div class="modal_wrap">
+        <div class="close_top">
+          <div class="button_close"><a class="batu" href=""><img src="img/batu.svg" alt=""></a></div>
+        </div>
+        <div class="modal_box" id="modal1"></div>
+        <div class="modal_main">
+          <form method="post" action="https://click.ecc.ac.jp/ecc/sminami/G/rejister.php">
+            <h3> 貯金金額を設定する</h3>
+            <div class="text">
+              <p>この幸せと一緒に貯める金額を</p>入力してください。
+            </div>
+            <div class="area">
+              <input class="box" type="text" name="money" placeholder="EX：200"><br>
+              <div class="erabu"><a href="happytext.html">
+                  <input id="button" type="button" value="幸せを書き直す"></a></div>
+              <div class="erabu">
+                <input id="button" type="submit" value="OK!">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+  </body>
+</html>
